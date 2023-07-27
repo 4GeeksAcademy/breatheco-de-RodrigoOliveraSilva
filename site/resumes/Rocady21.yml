@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rodrigo
+    last_name: Olivera Silva
+    
+    # Define yourself in 4-5 words
+    motto: Me gustan los desafios
+    
+    # focus
+    focus: Ser desarrollador web :)
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Me llamo Rodrigo, tengo 21 años y soy Programador Junior, he echo proyectos personales como Pagina para ver Anime(front-end y back-end)
+      e Pagina para interactuar con otras personas como chat, comentarios, post, notificaciones etc.
+      Me gustan mucho los desafios y los retos, sobretodo si se trata de la programacion ,estoy ansioso de seguir avanzando y aprender nuevas tecnologias.
+
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/D4D03AQEfLbgfCrxBdQ/profile-displayphoto-shrink_100_100/0/1669062436472?e=1695859200&v=beta&t=dGmgge2baoQ_fiWM93cU8XM-giGa4LIGoln5kMHPBPc
+
+    # Contact Information
+    email: Rodrigooliverman12@gmail.com #optional
+    phone: 091 664 536 #optional
+    linkedin: https://www.linkedin.com/in/rodrigo-olivera-4b1407219/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Rocady21
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: A2
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Programar
+
+      - item: Jugar 
+
+      - item: Cocinar
+
+      - item: Entrnr(GYM)
+
+      - item: Dibujar
+
+
+# Your previous education
+education:
+    - degree: Primaria
+      university: Escuela N 45
+      # optional
+      time: 2007 - 2013
+      details: |
+        Primaria Basica
+          - Bullet point
+          - Bullet point
+
+    - degree: Ciclo basico e Bachillerato Informatica
+      university: Escuela Tecnica Maria Espinola Espinola-San jose de mayo
+      # optional
+      time: 2014 - 2019
+      details: |
+        Bachillerato de informatica terminado con un Proyecto para una pizzeria como Prueba de fin de curso.
+          - Bullet point
+          - Bullet point
+# Your previous job experiences or voluntier
+experiences:
+    - role: Developer Full-stack
+      time: 03/2023 - 07-2023
+      company: AutoDidacta(Pagina Propia)
+      # optional
+      details: |
+        Mi rol en este trabajo era hacer tareas de Diseño, Funcionalidades e interacciones de parte del Front y tareas como Creacion de Api, uso de librerias necesarias y optimizacion de parte del Backend
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      Pagina Calendario
+      PAgina ChatBasico 
+      Pagina Anime
+    assignments:
+      - title: Anime
+        # optional
+        link: "https://github.com/rocady21/AnimeFront-"
+        tagline: "Pagina web Responsive para ver Anime, Comentar, Chatear y Conocer gente nueva con tus mismos gustos"
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 20%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: React & ReactNative
+        level: 0%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+      - name: Nodejs + express
+        level: 70%
+
+      - name: java
+        level: 30%
